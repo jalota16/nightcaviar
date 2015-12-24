@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Night Caviar</title>
+        <meta name="description" content="">
+        <meta name="author" content="ink, cookbook, recipes">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) here  -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/img/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/touch-icon-ipad-retina.png">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.320x460.png" media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+
+        <!-- load Ink's CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/ink-flex.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+        
+		<!-- load Ink's CSS for IE8 -->
+        <!--[if lt IE 9 ]>
+            <link rel="stylesheet" href="../css/ink-ie.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <![endif]-->
+
+        <!-- test browser flexbox support and load legacy grid if unsupported -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/modernizr.js"></script>
+        <script type="text/javascript">
+            Modernizr.load({
+              test: Modernizr.flexbox,
+              nope : 'assets/css/ink-legacy.min.css'
+            });
+        </script>
+
+        <!-- load Ink's javascript files -->
+        <script type="text/javascript" src="assets/js/holder.js"></script>
+        <script type="text/javascript" src="assets/js/ink-all.min.js"></script>
+        <script type="text/javascript" src="assets/js/autoload.js"></script>
+		
+		 <script type="text/javascript" src="assets/js/bars.js"></script>
+
+        <style>
+			body {
+				background-color: #ecf0f1;
+			}
+            .panel {
+                border-radius: 2px;
+                -webkit-box-shadow: #dddddd 0 1px 1px 0;
+                -moz-box-shadow: #dddddd 0 1px 1px 0;
+                box-shadow: #dddddd 0 1px 1px 0;
+                padding: 1em;
+                border: 1px solid #BBB;
+                background-color: #FFF;
+            }
+		hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+	
+            .highlight {
+                clear: none;
+            }
+
+            .highlight-wrapper {
+                overflow: hidden; /* this is really important to make the float work */
+            }
+
+            .pub {
+                width: 300px;
+            }
+
+            .pub a {
+                display: block;
+            }
+
+            footer {
+                background: #ccc;
+            }
+
+            @media screen and (min-width: 1261px) {
+                /* xlarge */
+                .highlight {
+                    /* create the needed space for the fixed width column */
+                    padding-right: 20.75em;
+                }
+            }
+
+            @media screen and (min-width: 961px) and (max-width: 1260px) {
+                /* large */
+                .highlight {
+                    /* create the needed space for the fixed width column */
+                    padding-right: 20.75em;
+                }
+            }
+
+            @media screen and (min-width: 641px) and (max-width: 960px) {
+                /* medium */
+                .highlight {
+                    padding-right: 0;
+                }
+            }
+
+            @media screen and (min-width: 321px) and (max-width: 640px) {
+                /* small */
+                .highlight {
+                    padding-right: 0;
+                }
+            }
+
+            @media screen and (max-width: 320px) {
+                /* tiny */
+                .highlight {
+                    padding-right: 0;
+                }
+            }
+			.fixed-head{
+				position:fixed;
+     margin:0px;
+     top:0px;
+     left:0px;
+     display:block;
+     width:100%;
+     height:40px;
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+     background:#333333;
+     background: -moz-linear-gradient(center top , #736F6E, #111111) repeat scroll 0 0 transparent;
+
+			
+			}
+        </style>
+
+    </head>
+<body>
+
+          
+<div class="ink-grid vertical-space">
+                <a href = ""><img style="max-width:271px; max-height:90px" src = "assets/img/Logo_1.png"/></a>
+				
+				<div style = "float:right;">
+					<table width="100%"><tbody><tr><td><p style="font-family: 'Bree Serif', serif;">Discover Us On</p> <span class="social_stickers_header"> <a class="cb-facebook" target="_blank" href="" title="Facebook"><img src="assets/img/facebook.png" scale="0"></a> <a target="_blank" href="" title="Twitter"><img src="assets/img/twitter.png" scale="0"></a> <a target="_blank" href="" title="Instagram"><img src="assets/img/instagram.png" scale="0"></a> <a class="ns_modal" title="Mail"><img src="assets/img/email.png" scale="0"></a> </span></td></tr></tbody>
+					</table>
+				</div>
+				
+    <!--[if lt IE 9 ]>
+    <div class="ink-alert basic" role="alert">
+        <button class="ink-dismiss">&times;</button>
+        <p>
+            <strong>You are using an outdated Internet Explorer version.</strong>
+            Please <a href="http://browsehappy.com/">upgrade to a modern browser</a> to improve your web experience.
+        </p>
+    </div>
+    <![endif]-->
+	<hr class = "style-one"/>
+	<div id = "firstDiv"></div>
+	<h1 style = "font-family:Lobster;">Looking for a specific type of night?</h1>
+    <div class="panel">
+	
+	
+        <div id="car1" class="ink-carousel" data-space-after-last-slide="false">
+            <ul class="stage column-group half-gutters">
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a href="sports_bars.html" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Sports Bars</h4>
+<p>Pick up a cue stick or throw some darts</p>                        </div>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/happy_hours.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Happy Hours</h4>
+<p>For the lean pockets</p>                        </div>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/tab-su.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Student Pass</h4>
+<p>Don't feel bad getting that discount </p>                        </div>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/singapore4.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">After Work</h4>
+<p>Grab a drink after a tiring day</p>                        </div>
+                </li>
+
+               <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/The-Oyster-Bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Speakeasy Bars</h4>
+<p>Soft conversations & Hard liquor</p>                        </div>
+                </li>
+
+                 <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/play.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Play</h4>
+<p>Back to University</p>                        </div>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/beer.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Beer</h4>
+<p>Some refreshing hops</p>                        </div>
+                </li>
+
+                 <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/chic.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Chic</h4>
+<p>Places that remind you of fancy french words</p>                        </div>
+                </li>
+
+              <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/afternoon.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Chill Afternoons</h4>
+<p>Netflix? Nah! Grab a beer with someone</p>                        </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <nav id="p1" class="ink-navigation">
+            <ul class="pagination black">
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <script>
+        Ink.requireModules(['Ink.UI.Carousel_1'], function(InkCarousel) {
+            new InkCarousel('#car1', {pagination: '#p1'});
+        });
+    </script>
+	<hr class = "style-one"/>
+	<div style="width: 100%;">
+	<h1 style = "font-family:Lobster, cursive;">Around You Today</h1>
+	 <section style = "font-family: 'Bree Serif', serif;" class="pub hide-all show-large show-xlarge xlarge-push-right large-push-right">
+                <div class="column-group gutters">
+                    <a href="#" class="all-100 mrec"><img src="../assets/js/holder.js/300x250/ink/auto/text: MREC PUB" /></a>
+                    <div class="all-50"><img src="../assets/js/holder.js/300x250/ink/auto/text: PUB" /></div>
+                    <div class="all-50"><img src="../assets/js/holder.js/300x250/ink/auto/text: PUB" /></div>
+                </div>
+                <p>
+                    "Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."
+                </p>
+            </section>
+
+            <section style = "font-family: 'Bree Serif', serif;" class="highlight">
+                <div class="highlight-wrapper">
+                    <div class="column-group gutters">
+                        <div class="xlarge-60 large-60 medium-50 small-100 tiny-100">
+                            <div class="image">
+                                <img src="../assets/js/holder.js/600x430/ink/auto/text: highlight" />
+                            </div>
+                        </div>
+                        <div class="xlarge-40 large-40 medium-50 small-100 tiny-100">
+                            <h2>heading</h2>
+                            <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
+                        </div>
+                    </div>
+                    <div class="column-group gutters">
+                        <div class="all-50 small-100 tiny-100"><img src="../assets/js/holder.js/600x430/ink/auto/text: another story" /></div>
+                        <div class="all-50 small-100 tiny-100"><img src="../assets/js/holder.js/600x430/ink/auto/text: another story" /></div>
+                    </div>
+                    <div class="column-group gutters">
+                        <div class="all-33 small-100 tiny-100"><img src="../assets/js/holder.js/600x430/ink/auto/text: another story" /></div>
+                        <div class="all-33 small-100 tiny-100"><img src="../assets/js/holder.js/600x430/ink/auto/text: another story" /></div>
+                        <div class="all-33 small-100 tiny-100"><img src="../assets/js/holder.js/600x430/ink/auto/text: another story" /></div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+	<hr class = "style-one"/>
+	<div style="background-image: url(assets/img/whiskey.jpg); height: 600px; font-family: 'Raleway', sans-serif;">
+	<div style= "padding:10px;"></div>
+	<h3 style = "padding-left:10px; color:white; font-family: 'Bree Serif', serif;">SIGN UP WITH US TODAY FOR UPDATES ON THE HOTTEST PARTIES IN TOWN</h3>
+	<div style= "padding-left:10px;"></div>
+		    <form action="" class="ink-form all-50 small-100 tiny-100">
+                    <fieldset>
+                        <div class="control-group required column-group gutters">
+                            <label for="first-name" class="all-20 align-right">Name</label>
+                            <div class="control all-40">
+                                <input type="text" id="first-name">
+                                <p class="tip">First Name</p>
+                            </div>
+                            <div class="control all-40">
+                                <input type="text" id="last-name">
+                                <p class="tip">Last Name</p>
+                            </div>
+                        </div>
+<div style= "padding-right:10px;"></div>
+                        <div class="control-group required column-group gutters">
+                            <label for="email" class="all-20 align-right">Email</label>
+                            <div class="control all-80">
+                                <input type="text" id="email">
+                            </div>
+                        </div>
+<div style= "padding-right:10px;"></div>
+                        <div class="control-group column-group gutters">
+                            <label for="area" class="all-20 align-right">Description</label>
+                            <div  class="control all-80">
+                                <textarea id="area"></textarea>
+                            </div>
+                        </div>
+
+<div style= "padding-right:10px;"></div>
+						<div class="control-group column-group gutters">
+                            <label for="submit" class="all-20 align-right"></label>
+                            <div class="control all-40button">
+                                <input type="button" id="submit" value = "Submit">
+                            </div>
+                        </div>
+                    </fieldset>
+					
+					
+					
+                </form>
+	</div>
+</div>
+
+ <footer class="clearfix" style = "font-family:Bree Serif, serif;">
+            <div class="ink-grid">
+               <div style = "padding:10px"></div>
+                   <a href="#">Privacy Policy</a> &nbsp;
+             <a href="#">Terms & Conditions</a>&nbsp;
+        <a href="#">Contact Us</a>
+     
+				<div style = "float:right;">
+					<table width="100%"><tbody><tr><td><p>NightCaviar Pte Ltd 2015</p><p style="font-family: 'Bree Serif', serif;"></p> <span class="social_stickers_header"> <a class="cb-facebook" target="_blank" href="https://www.facebook.com/LittleBlackBookDelhi" title="Facebook"><img src="assets/img/facebook.png" scale="0"></a> <a target="_blank" href="https://twitter.com/LBBDelhi" title="Twitter"><img src="assets/img/twitter.png" scale="0"></a> <a target="_blank" href="https://instagram.com/LBBDelhi" title="Instagram"><img src="assets/img/instagram.png" scale="0"></a> <a class="ns_modal" title="Mail"><img src="assets/img/email.png" scale="0"></a> </span></td></tr></tbody>
+					</table>
+				</div>
+                
+            </div>
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Night Caviar</title>
+        <meta name="description" content="">
+        <meta name="author" content="ink, cookbook, recipes">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) here  -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/img/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/touch-icon-ipad-retina.png">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.320x460.png" media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+
+        <!-- load Ink's CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/ink-flex.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+        
+		<!-- load Ink's CSS for IE8 -->
+        <!--[if lt IE 9 ]>
+            <link rel="stylesheet" href="../css/ink-ie.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <![endif]-->
+
+        <!-- test browser flexbox support and load legacy grid if unsupported -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/modernizr.js"></script>
+        <script type="text/javascript">
+            Modernizr.load({
+              test: Modernizr.flexbox,
+              nope : 'assets/css/ink-legacy.min.css'
+            });
+        </script>
+
+        <!-- load Ink's javascript files -->
+        <script type="text/javascript" src="assets/js/holder.js"></script>
+        <script type="text/javascript" src="assets/js/ink-all.min.js"></script>
+        <script type="text/javascript" src="assets/js/autoload.js"></script>
+		
+		 <script type="text/javascript" src="assets/js/bars.js"></script>
+
+        <style>
+			body {
+				background-color: #ecf0f1;
+			}
+            .panel {
+                border-radius: 2px;
+                -webkit-box-shadow: #dddddd 0 1px 1px 0;
+                -moz-box-shadow: #dddddd 0 1px 1px 0;
+                box-shadow: #dddddd 0 1px 1px 0;
+                padding: 1em;
+                border: 1px solid #BBB;
+                background-color: #FFF;
+            }
+		hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+	
+            .highlight {
+                clear: none;
+            }
+
+            .highlight-wrapper {
+                overflow: hidden; /* this is really important to make the float work */
+            }
+
+            .pub {
+                width: 300px;
+            }
+
+            .pub a {
+                display: block;
+            }
+
+            footer {
+                background: #ccc;
+            }
+
+            @media screen and (min-width: 1261px) {
+                /* xlarge */
+                .highlight {
+                    /* create the needed space for the fixed width column */
+                    padding-right: 20.75em;
+                }
+            }
+
+            @media screen and (min-width: 961px) and (max-width: 1260px) {
+                /* large */
+                .highlight {
+                    /* create the needed space for the fixed width column */
+                    padding-right: 20.75em;
+                }
+            }
+
+            @media screen and (min-width: 641px) and (max-width: 960px) {
+                /* medium */
+                .highlight {
+                    padding-right: 0;
+                }
+            }
+
+            @media screen and (min-width: 321px) and (max-width: 640px) {
+                /* small */
+                .highlight {
+                    padding-right: 0;
+                }
+            }
+
+            @media screen and (max-width: 320px) {
+                /* tiny */
+                .highlight {
+                    padding-right: 0;
+                }
+            }
+			.fixed-head{
+				position:fixed;
+     margin:0px;
+     top:0px;
+     left:0px;
+     display:block;
+     width:100%;
+     height:40px;
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+     background:#333333;
+     background: -moz-linear-gradient(center top , #736F6E, #111111) repeat scroll 0 0 transparent;
+
+			
+			}
+        </style>
+
+    </head>
+<body>
+
+          
+<div class="ink-grid vertical-space">
+                <a href = "/nightcaviar"><img style="max-width:271px; max-height:90px" src = "assets/img/Logo_1.png"/></a>
+				
+				<div style = "float:right;">
+					<table width="100%"><tbody><tr><td><p style="font-family: 'Bree Serif', serif;">Discover Us On</p> <span class="social_stickers_header"> <a class="cb-facebook" target="_blank" href="" title="Facebook"><img src="assets/img/facebook.png" scale="0"></a> <a target="_blank" href="" title="Twitter"><img src="assets/img/twitter.png" scale="0"></a> <a target="_blank" href="" title="Instagram"><img src="assets/img/instagram.png" scale="0"></a> <a class="ns_modal" title="Mail"><img src="assets/img/email.png" scale="0"></a> </span></td></tr></tbody>
+					</table>
+				</div>
+				
+    <!--[if lt IE 9 ]>
+    <div class="ink-alert basic" role="alert">
+        <button class="ink-dismiss">&times;</button>
+        <p>
+            <strong>You are using an outdated Internet Explorer version.</strong>
+            Please <a href="http://browsehappy.com/">upgrade to a modern browser</a> to improve your web experience.
+        </p>
+    </div>
+    <![endif]-->
+	<hr class = "style-one"/>
+	<div id = "firstDiv"></div>
+   
+            <section class="column-group gutters article">
+                <div class="xlarge-70 large-70 medium-60 small-100 tiny-100">
+				 <header>
+                            <h1 style = "font-family: 'Bree Serif', serif;">Sports Bars</h1>
+                            
+                        </header>
+                    <article>
+                       
+                        
+                        <figure class="ink-image vertical-space">
+                            <img src="assets/img/sticky_fingers.jpg" alt="">
+                            <figcaption class="dark over-bottom">
+                                "Because you wear silver shoes and have killed the Wicked Witch. Besides, you have white in your frock, and only witches and sorceresses wear white."
+                            </figcaption>
+                        </figure>
+                        <p><blockquote>"Queequeg," said I, "do you think that we can make out a supper for us both on one clam?"</blockquote></p>
+                        <p>However, a warm savory steam from the kitchen served to belie the apparently cheerless prospect before us. But when that smoking chowder came in, the mystery was delightfully explained. Oh, sweet friends! hearken to me. It was made of small juicy clams, scarcely bigger than hazel nuts, mixed with pounded ship biscuit, and salted pork cut up into little flakes; the whole enriched with butter, and plentifully seasoned with pepper and salt. Our appetites being sharpened by the frosty voyage, and in particular, Queequeg seeing his favourite fishing food before him, and the chowder being surpassingly excellent, we despatched it with great expedition: when leaning back a moment and bethinking me of Mrs. Hussey's clam and cod announcement, I thought I would try a little experiment. Stepping to the kitchen door, I uttered the word "cod" with great emphasis, and resumed my seat. In a few moments the savoury steam came forth again, but with a different flavor, and in good time a fine cod-chowder was placed before us.</p>
+                        <footer>
+                            <p><small>Creative Commons Attribution-ShareAlike License</small></p>
+                        </footer>
+                    </article>
+                </div>
+                <section class="xlarge-30 large-30 medium-40 small-100 tiny-100">
+                    <h2>Related</h2>
+                    <ul class="unstyled">
+                        <li class="column-group half-gutters">
+                            <div class="all-40 small-50 tiny-50"><img src="holder.js/640x380/auto/ink" alt=""></div>
+                            <div class="all-60 small-50 tiny-50"><p>"Where's them crabs, Hoo-Hoo?" Edwin demanded. "Granser's set upon  having a snack."</p></div>
+                        </li>
+                        <li class="column-group half-gutters">
+                            <div class="all-40 small-50 tiny-50"><img src="holder.js/640x380/auto/ink" alt=""></div>
+                            <div class="all-60 small-50 tiny-50"><p>"Where's them crabs, Hoo-Hoo?" Edwin demanded. "Granser's set upon  having a snack."</p></div>
+                        </li>
+                        <li class="column-group half-gutters">
+                            <div class="all-40 small-50 tiny-50"><img src="holder.js/640x380/auto/ink" alt=""></div>
+                            <div class="all-60 small-50 tiny-50"><p>"Where's them crabs, Hoo-Hoo?" Edwin demanded. "Granser's set upon  having a snack."</p></div>
+                        </li>
+                        <li class="column-group half-gutters">
+                            <div class="all-40 small-50 tiny-50"><img src="holder.js/640x380/auto/ink" alt=""></div>
+                            <div class="all-60 small-50 tiny-50"><p>"Where's them crabs, Hoo-Hoo?" Edwin demanded. "Granser's set upon  having a snack."</p></div>
+                        </li>
+                        <li class="column-group half-gutters">
+                            <div class="all-40 small-50 tiny-50"><img src="holder.js/640x380/auto/ink" alt=""></div>
+                            <div class="all-60 small-50 tiny-50"><p>"Where's them crabs, Hoo-Hoo?" Edwin demanded. "Granser's set upon  having a snack."</p></div>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="column-group gutters">
+                <div class="all-20 small-100 tiny-100">
+                    <h3>heading</h3>
+                    <img class="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="">
+                    <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
+                </div>
+                <div class="all-20 small-100 tiny-100">
+                    <h3>heading</h3>
+                    <img class="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="">
+                    <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
+                </div>
+                <div class="all-20 small-100 tiny-100">
+                    <h3>heading</h3>
+                    <img class="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="">
+                    <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
+                </div>
+                <div class="all-20 small-100 tiny-100">
+                    <h3>heading</h3>
+                    <img class="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="">
+                    <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
+                </div>
+                <div class="all-20 small-100 tiny-100">
+                    <h3>heading</h3>
+                    <img class="half-bottom-space" src="holder.js/1200x600/auto/ink" alt="">
+                    <p>"Red is not the right word," was the reply. "The plague was scarlet.  The whole face and body turned scarlet in an hour's time. Don't I  know? Didn't I see enough of it? And I am telling you it was scarlet  because&mdash;well, because it was scarlet. There is no other word for it."</p>
+                </div>
+            </section>
+        </div>
+         <footer class="clearfix" style = "font-family:Bree Serif, serif;">
+            <div class="ink-grid">
+                <ul class="unstyled inline half-vertical-space">
+                    <li class="active"><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+				<div style = "float:right;">
+					<table width="100%"><tbody><tr><td><p class="note">NightCaviar Pte Ltd 2015</p><p style="font-family: 'Bree Serif', serif;"></p> <span class="social_stickers_header"> <a class="cb-facebook" target="_blank" href="https://www.facebook.com/LittleBlackBookDelhi" title="Facebook"><img src="assets/img/facebook.png" scale="0"></a> <a target="_blank" href="https://twitter.com/LBBDelhi" title="Twitter"><img src="assets/img/twitter.png" scale="0"></a> <a target="_blank" href="https://instagram.com/LBBDelhi" title="Instagram"><img src="assets/img/instagram.png" scale="0"></a> <a class="ns_modal" title="Mail"><img src="assets/img/email.png" scale="0"></a> </span></td></tr></tbody>
+					</table>
+				</div>
+                
+            </div>
+        </footer>
+
+
+
+
+</div>
+</body>
+</html>

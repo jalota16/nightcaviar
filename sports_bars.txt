@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Night Caviar</title>
+        <meta name="description" content="">
+        <meta name="author" content="ink, cookbook, recipes">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) here  -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/img/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/touch-icon-ipad-retina.png">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.320x460.png" media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="assets/img/splash.1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+
+        <!-- load Ink's CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/ink-flex.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+        
+		<!-- load Ink's CSS for IE8 -->
+        <!--[if lt IE 9 ]>
+            <link rel="stylesheet" href="../css/ink-ie.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <![endif]-->
+
+        <!-- test browser flexbox support and load legacy grid if unsupported -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/modernizr.js"></script>
+        <script type="text/javascript">
+            Modernizr.load({
+              test: Modernizr.flexbox,
+              nope : 'assets/css/ink-legacy.min.css'
+            });
+        </script>
+
+        <!-- load Ink's javascript files -->
+        <script type="text/javascript" src="assets/js/holder.js"></script>
+        <script type="text/javascript" src="assets/js/ink-all.min.js"></script>
+        <script type="text/javascript" src="assets/js/autoload.js"></script>
+		
+		 <script type="text/javascript" src="assets/js/bars.js"></script>
+
+        <style>
+
+            .panel {
+                border-radius: 2px;
+                -webkit-box-shadow: #dddddd 0 1px 1px 0;
+                -moz-box-shadow: #dddddd 0 1px 1px 0;
+                box-shadow: #dddddd 0 1px 1px 0;
+                padding: 1em;
+                border: 1px solid #BBB;
+                background-color: #FFF;
+            }
+
+        </style>
+
+    </head>
+<body>
+
+          
+<div class="ink-grid vertical-space">
+                <font size = "7" style="font-family: 'Lobster', cursive; text-align:left;">Night Caviar</font>
+				
+				<div style = "float:right;">
+					<table width="100%"><tbody><tr><td><p style="font-family: 'Bree Serif', serif;">DISCOVER US ON</p> <span class="social_stickers_header"> <a class="cb-facebook" target="_blank" href="https://www.facebook.com/LittleBlackBookDelhi" title="Facebook"><img src="assets/img/facebook.png" scale="0"></a> <a target="_blank" href="https://twitter.com/LBBDelhi" title="Twitter"><img src="assets/img/twitter.png" scale="0"></a> <a target="_blank" href="https://instagram.com/LBBDelhi" title="Instagram"><img src="assets/img/instagram.png" scale="0"></a> <a class="ns_modal" title="Mail"><img src="assets/img/email.png" scale="0"></a> </span></td></tr></tbody>
+					</table>
+				</div>
+				<div style = "padding:20px;"></div>
+    <!--[if lt IE 9 ]>
+    <div class="ink-alert basic" role="alert">
+        <button class="ink-dismiss">&times;</button>
+        <p>
+            <strong>You are using an outdated Internet Explorer version.</strong>
+            Please <a href="http://browsehappy.com/">upgrade to a modern browser</a> to improve your web experience.
+        </p>
+    </div>
+    <![endif]-->
+	<div id = "firstDiv"></div>
+    <div class="panel">
+
+        <div id="car1" class="ink-carousel" data-space-after-last-slide="false">
+            <ul class="stage column-group half-gutters">
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Sports Bars</h4>
+<p>Pick up a cue stick or throw some darts</p>                        </div>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Happy Hours</h4>
+<p>For the lean pockets</p>                        </div>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Student Pass</h4>
+<p>Pick up a cue stick or throw some darts</p>                        </div>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">After Work</h4>
+<p>Pick up a cue stick or throw some darts</p>                        </div>
+                </li>
+
+               <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Speakeasy Bars</h4>
+<p>Soft conversations & Hard liquor</p>                        </div>
+                </li>
+
+                 <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Play</h4>
+<p>Back to University</p>                        </div>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Beer</h4>
+<p>Some refreshing hops</p>                        </div>
+                </li>
+
+                 <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Chic</h4>
+<p>Places that remind you of fancy french words</p>                        </div>
+                </li>
+
+              <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                   <a target="_blank" href="" title="sports"><img class="half-bottom-space" src="assets/img/sports_bar.jpg" style = "max-height:158px"></a>
+                    <div class="description">
+                        <h4 class="no-margin" style="font-family: 'Bree Serif', serif;">Chill Afternoons</h4>
+<p>Netflix? Nah! Grab a beer with someone</p>                        </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <nav id="p1" class="ink-navigation">
+            <ul class="pagination black">
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <script>
+        Ink.requireModules(['Ink.UI.Carousel_1'], function(InkCarousel) {
+            new InkCarousel('#car1', {pagination: '#p1'});
+        });
+    </script>
+
+
+
+    <div class="panel vertical-space">
+
+        <div id="car2" class="ink-carousel">
+
+            <ul class="stage column-group half-gutters unstyled">
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/400/200/city/1">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/400/200/city/2">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+<p>Bar Description. Deal Description. Catchy Lines</p>                    </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/400/200/city/3">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+<p>Bar Description. Deal Description. Catchy Lines</p>                    </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/400/200/city/4">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/400/200/city/5">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/400/200/city/6">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/400/200/city/7">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-25 large-25 medium-33 small-50 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/400/200/city/8">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+            </ul>
+
+            <nav id="p2" class="ink-navigation" data-next-label="" data-previous-label="">
+                <ul class="pagination dotted">
+                </ul>
+            </nav>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        Ink.requireModules(['Ink.UI.Carousel_1'], function(InkCarousel) {
+            new InkCarousel('#car2', {pagination: '#p2'})
+        });
+    </script>
+
+
+    <div class="panel vertical-space">
+
+        <div id="car3" class="ink-carousel">
+
+            <ul class="stage column-group half-gutters unstyled">
+
+                <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/1400/675/nightlife/1">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/1400/675/nightlife/2">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/1400/675/nightlife/3">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/1400/675/nightlife/4">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/1400/675/nightlife/5">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/1400/675/nightlife/6">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/1400/675/nightlife/7">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+
+                <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                    <img class="half-bottom-space" src="http://lorempixel.com/1400/675/nightlife/8">
+                    <h4 class="no-margin">Highlight Title</h4>
+                    <h5 class="slab">Baby Doe</h5>
+                    <p>Bar Description. Deal Description. Catchy Lines</p>
+                </li>
+            </ul>
+
+
+            <nav id="p3" class="ink-navigation" data-previous-label="" data-next-label="">
+                <ul class="pagination chevron">
+                </ul>
+            </nav>
+
+        </div>
+
+        <script>
+            Ink.requireModules(['Ink.UI.Carousel_1'], function(InkCarousel) {
+                new InkCarousel('#car3', { pagination: '#p3', nextLabel: '', previousLabel: ''});
+            });
+        </script>
+
+    </div>
+
+</div>
+</body>
+</html>
